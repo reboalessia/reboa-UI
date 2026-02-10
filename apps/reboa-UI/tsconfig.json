@@ -5,6 +5,7 @@
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "types": ["vite/client", "vitest"]
   },
   "files": [],

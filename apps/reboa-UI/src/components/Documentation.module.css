@@ -1,0 +1,99 @@
+.documentation {
+  color: #333;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #642CA9;
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: #666;
+  text-align: center;
+  margin: 0 0 2.5rem 0;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #FFDDE1;
+}
+
+.section:last-of-type {
+  border-bottom: none;
+  margin-bottom: 1rem;
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #642CA9;
+  margin: 0 0 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  margin: 0 0 1rem 0;
+}
+
+.codeBlock {
+  background: #1e1e1e;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin: 0.75rem 0;
+  overflow-x: auto;
+  border: 2px solid #642CA9;
+}
+
+.codeBlock code {
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  color: #d4d4d4;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.list {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.list li {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.list li strong {
+  color: #FF36AB;
+  font-weight: 600;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem 0 0 0;
+  margin-top: 1rem;
+  border-top: 2px solid #FFDDE1;
+}
+
+.footer p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #642CA9;
+  margin: 0;
+}
+
+strong {
+  font-weight: 600;
+  color: #642CA9;
+}
